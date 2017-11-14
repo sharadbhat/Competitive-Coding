@@ -1,3 +1,6 @@
+// HACKERRANK
+// https://www.hackerrank.com/challenges/functional-programming-warmups-in-recursion---fibonacci-numbers/problem
+
 #include <stdio.h>
 
 int fibonacci(int n)
@@ -18,4 +21,3 @@ int main() {
     printf("%d", fibonacci(n));
     return 0;
 }
-

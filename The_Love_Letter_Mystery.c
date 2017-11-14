@@ -1,3 +1,6 @@
+// HACKERRANK
+//
+
 #include <stdio.h>
 #include <string.h>
 #include <math.h>
@@ -25,14 +28,14 @@ int main()
         {
             for(j=0;j<=((int)(non/2))-1;j++)
             {
-               total+=fabs((int)(a[j])-(int)(a[no-1-j])); 
+               total+=fabs((int)(a[j])-(int)(a[no-1-j]));
             }
         }
         else
         {
             for(j=0;j<=((int)(non/2));j++)
             {
-                total+=fabs((int)(a[j])-(int)(a[no-1-j])); 
+                total+=fabs((int)(a[j])-(int)(a[no-1-j]));
             }
         }
         printf("%d\n",total);

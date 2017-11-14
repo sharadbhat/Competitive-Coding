@@ -1,3 +1,6 @@
+// HACKERRANK
+// https://www.hackerrank.com/challenges/array-left-rotation
+
 #include <math.h>
 #include <stdio.h>
 #include <malloc.h>
@@ -22,7 +25,7 @@ int main()
 {
 	int no, rots, i, num;
 	scanf("%d%d", &no, &rots);
-	
+
 	//TAKING NUMBERS
 	for(i = 0; i < no; i++)
 	{
@@ -42,13 +45,13 @@ int main()
 		}
 		newnode->next = head;
 	}
-	
+
 	//ROTATION
 	for(i = 0; i < rots; i++)
     {
     	head = head->next;
 	}
-	
+
 	//PRINT
 	node *temp = head;
 	printf("%d ", temp->val);

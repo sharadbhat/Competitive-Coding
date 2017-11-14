@@ -1,8 +1,11 @@
+// HACKERRANK
+//
+
 #include <stdio.h>
 #include <string.h>
 #include <math.h>
 #include <stdlib.h>
- 
+
 int main()
 {
     char a[100000],alpha[26]={0};

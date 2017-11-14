@@ -1,3 +1,6 @@
+// HACKERRANK
+// https://www.hackerrank.com/challenges/chocolate-feast/problem
+
 #include <math.h>
 #include <stdio.h>
 #include <string.h>
