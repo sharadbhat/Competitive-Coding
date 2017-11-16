@@ -1,5 +1,5 @@
 // HACKERRANK
-//
+// https://www.hackerrank.com/challenges/icecream-parlor/problem
 
 #include<stdio.h>
 int main()

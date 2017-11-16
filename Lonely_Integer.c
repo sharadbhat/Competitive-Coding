@@ -1,5 +1,5 @@
 // HACKERRANK
-//
+// https://www.hackerrank.com/challenges/lonely-integer/problem
 
 #include <math.h>
 #include <stdio.h>

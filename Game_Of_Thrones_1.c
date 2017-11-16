@@ -1,5 +1,5 @@
 // HACKERRANK
-//
+// https://www.hackerrank.com/challenges/game-of-thrones/problem
 
 #include <stdio.h>
 #include <string.h>
