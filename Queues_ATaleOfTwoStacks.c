@@ -1,5 +1,5 @@
 // HACKERRANK
-//
+// https://www.hackerrank.com/challenges/ctci-queue-using-two-stacks/problem
 
 #include <stdio.h>
 #include <malloc.h>

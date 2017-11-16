@@ -1,5 +1,5 @@
 // HACKERRANK
-//
+// https://www.hackerrank.com/challenges/ctci-making-anagrams/problem
 
 #include <math.h>
 #include <stdio.h>

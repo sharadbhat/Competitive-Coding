@@ -1,5 +1,5 @@
 // HACKERRANK
-//
+// https://www.hackerrank.com/challenges/pangrams/problem
 
 #include <stdio.h>
 #include <string.h>

@@ -1,5 +1,5 @@
 // HACKERRANK
-//
+// https://www.hackerrank.com/challenges/ctci-balanced-brackets/problem
 
 #include <math.h>
 #include <stdio.h>
