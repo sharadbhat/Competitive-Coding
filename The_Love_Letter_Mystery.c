@@ -1,5 +1,5 @@
 // HACKERRANK
-//
+// https://www.hackerrank.com/challenges/the-love-letter-mystery/problem
 
 #include <stdio.h>
 #include <string.h>
