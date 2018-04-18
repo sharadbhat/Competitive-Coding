@@ -5,8 +5,9 @@ import sys
 
 def minimumDistances(a):
     d = {}
-    minimum = len(a)
-    for i in range(len(a)):
+    length = len(a)
+    minimum = length
+    for i in range(length)):
         if a[i] in d:
             dist = abs(d[a[i]] - i)
             if minimum > dist:
