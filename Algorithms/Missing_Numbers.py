@@ -1,4 +1,4 @@
-# HACKERANK
+# HACKERRANK
 # https://www.hackerrank.com/challenges/missing-numbers/problem
 
 n1 = int(input())

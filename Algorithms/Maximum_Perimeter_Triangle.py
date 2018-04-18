@@ -1,4 +1,4 @@
-# HACKERANK
+# HACKERRANK
 # https://www.hackerrank.com/challenges/maximum-perimeter-triangle/problem
 
 import os

@@ -1,4 +1,4 @@
-# HACKERANK
+# HACKERRANK
 # https://www.hackerrank.com/challenges/two-arrays/problem
 
 import sys

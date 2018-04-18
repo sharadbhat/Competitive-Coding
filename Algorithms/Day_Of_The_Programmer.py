@@ -1,4 +1,4 @@
-# HACKERANK
+# HACKERRANK
 # https://www.hackerrank.com/challenges/day-of-the-programmer/problem
 
 import sys

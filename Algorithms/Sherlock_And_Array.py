@@ -1,4 +1,4 @@
-# HACKERANK
+# HACKERRANK
 # https://www.hackerrank.com/challenges/sherlock-and-array/problem
 
 import sys
