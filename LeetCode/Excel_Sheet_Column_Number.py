@@ -8,8 +8,7 @@ class Solution(object):
         :rtype: int
         """
         count = 0
-        for i in range(len(s) - 1):
-            count = (count + (ord(s[i]) - 64)) * 26
+        for i in range(len(s)):
+            count += ((26 ** (len(s) - 1 - i)) * (ord(s[i]) - 64))
 
-        count += (ord(s[-1]) - 64)
         return count
