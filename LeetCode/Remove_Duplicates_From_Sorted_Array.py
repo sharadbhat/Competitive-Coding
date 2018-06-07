@@ -10,10 +10,12 @@ class Solution:
         count = 0
         temp_list = []
         i = 0
-        temp_dict = {}
-        for i in range(len(nums)):
-            if nums[i] not in temp_dict:
-                temp_list.append(nums[i])
-                temp_dict[nums[i]] = 1
-        nums[:] = temp_list
+        if len(nums) > 0:
+            prev = nums[0]
+            temp_list = [prev]
+            for i in range(1, len(nums)):
+                if nums[i] != prev:
+                    temp_list.append(nums[i])
+                    prev = nums[i]
+            nums[:] = temp_list
         return len(nums)
