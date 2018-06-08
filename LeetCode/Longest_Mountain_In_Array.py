@@ -21,7 +21,7 @@ class Solution:
         curr = i + 1
 
         while curr < j:
-            if A[curr - 1] > A[curr] and A[curr] < A[curr + 1]:
+            if A[curr - 1] > A[curr] and A[curr] < A[curr + 1]: # Start of new mountain
                 if max_count < (curr - start + 1):
                     max_count = curr - start + 1
                 start = curr
