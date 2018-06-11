@@ -8,14 +8,11 @@ class Solution(object):
         :rtype: str
         """
         l = []
-        while True:
+        while n > 0:
             if (n % 26) == 0:
                 l = ['Z'] + l
             else:
                 l = [chr(64 + n % 26)] + l
 
             n = (n - 1) // 26
-
-            if n == 0:
-                break
         return ''.join(l)
