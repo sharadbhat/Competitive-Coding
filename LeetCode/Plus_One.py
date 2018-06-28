@@ -23,5 +23,5 @@ class Solution:
                 break
         if all_zero == True:
             digits = [1] + digits
-        
+
         return digits
