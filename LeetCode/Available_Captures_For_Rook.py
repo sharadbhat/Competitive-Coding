@@ -2,7 +2,7 @@
 # https://leetcode.com/problems/available-captures-for-rook/
 
 class Solution:
-    def numRookCaptures(self, board: List[List[str]]) -> int:
+    def numRookCaptures(self, board):
         captures = 0
         rook_pos = None
         position = None
