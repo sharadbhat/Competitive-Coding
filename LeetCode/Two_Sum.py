@@ -1,14 +1,12 @@
 # LeetCode
-# https://leetcode.com/problems/two-sum/description/
+# https://leetcode.com/problems/two-sum
+
 
 class Solution:
-    def twoSum(self, nums, target):
-        """
-        :type nums: List[int]
-        :type target: int
-        :rtype: List[int]
-        """
-        for i in range(len(nums) - 1):
-            for j in range(i + 1, len(nums)):
-                if nums[i] + nums[j] == target:
-                    return [i, j]
+    def twoSum(self, nums: List[int], target: int) -> List[int]:
+        complement_num = {}
+        for i in range(len(nums)):
+            if nums[i] in complement_num:
+                return [complement_num[nums[i]], i]
+            else:
+                complement_num[target - nums[i]] = i

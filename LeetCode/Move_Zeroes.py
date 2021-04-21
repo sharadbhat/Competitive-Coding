@@ -1,12 +1,17 @@
 # LeetCode
 # https://leetcode.com/problems/move-zeroes/description/
 
+
 class Solution:
-    def moveZeroes(self, nums):
+    def moveZeroes(self, nums: List[int]) -> None:
         """
-        :type nums: List[int]
-        :rtype: void Do not return anything, modify nums in-place instead.
+        Do not return anything, modify nums in-place instead.
         """
-        a = nums.count(0)
-        x = [i for i in nums if i != 0]
-        nums[:] = x + [0] * a
+        og_len = len(nums)
+        i = 0
+        while i < og_len:
+            if nums[i] == 0:
+                nums.append(nums.pop(i))
+                og_len -= 1
+            else:
+                i += 1

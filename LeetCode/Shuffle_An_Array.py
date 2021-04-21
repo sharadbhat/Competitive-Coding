@@ -1,32 +1,28 @@
 # LeetCode
 # https://leetcode.com/problems/shuffle-an-array/
 
-from random import shuffle
+import random
 
-class Solution(object):
 
-    def __init__(self, nums):
-        """
-        :type nums: List[int]
-        """
-        self.original = nums[:]
-        self.temp = nums[:]
+class Solution:
 
-    def reset(self):
+    def __init__(self, nums: List[int]):
+        self.arr = nums
+
+    def reset(self) -> List[int]:
         """
         Resets the array to its original configuration and return it.
-        :rtype: List[int]
         """
-        self.temp = self.original[:]
-        return self.temp
+        return self.arr
 
-    def shuffle(self):
+    def shuffle(self) -> List[int]:
         """
         Returns a random shuffling of the array.
-        :rtype: List[int]
         """
-        shuffle(self.temp)
-        return self.temp
+        temp = self.arr[:]
+        random.shuffle(temp)
+        return temp
+
 
 # Your Solution object will be instantiated and called as such:
 # obj = Solution(nums)
