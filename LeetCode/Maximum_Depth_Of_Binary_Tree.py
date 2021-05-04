@@ -11,9 +11,7 @@
 
 class Solution:
     def maxDepth(self, root: TreeNode) -> int:
-        return self.getDepth(root)
-
-    def getDepth(self, root: TreeNode, depth=0) -> int:
         if not root:
             return 0
-        return max(depth + 1, self.getDepth(root.left, depth + 1), self.getDepth(root.right, depth + 1))
+
+        return 1 + max(self.maxDepth(root.left), self.maxDepth(root.right))
