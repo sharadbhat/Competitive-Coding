@@ -1,5 +1,5 @@
 # LeetCode
-# https://leetcode.com/problems/first-unique-character-in-a-string/description/
+# https://leetcode.com/problems/first-unique-character-in-a-string/
 
 
 class Solution:
